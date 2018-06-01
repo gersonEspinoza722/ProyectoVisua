@@ -97,7 +97,7 @@ function draw()
 	  do
 		poblacion=ITERACIONESMAX*(((100*continentes[i].poblacion)/poblacionMayor)/100)
 		electricos=FRUTOSMAX*(((100*continentes[i].electricos)/electricosMayor)/100)
-		combustible=FRUTOSMAX*(((100*continentes[i].electricos)/electricosMayor)/100)
+		combustible=FRUTOSMAX*(((100*continentes[i].combustible)/combustibleMayor)/100)
 
 		pushMatrix(); 
 	--ANCHO GENERAL
